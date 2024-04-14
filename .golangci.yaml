@@ -1,0 +1,33 @@
+linters:
+  enable-all: true
+  disable:
+    - gofumpt
+    - ireturn
+    - varnamelen
+    - prealloc
+    - ifshort
+    - nlreturn
+    - depguard
+    - wsl
+    - interfacer
+    - godox
+    - godot
+    - varcheck
+    - nosnakecase
+    - deadcode
+    - golint
+    - structcheck
+    - exhaustivestruct
+    - maligned
+    - scopelint
+    - gosimple
+    - gci
+    - goimports
+linters-settings:
+  funlen:
+    lines: 24
+  lll:
+    line-length: 80
+  cyclop:
+    max-complexity: 7
+    skip-tests: true
